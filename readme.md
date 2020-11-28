@@ -21,7 +21,7 @@ Two MLP are used, one for samples including TCRα and the other for samples miss
 
 ## Requirements
 ERGO-II is built using [PytorchLightning](https://github.com/PyTorchLightning/pytorch-lightning), a PyTorch wrapper.
-See [the requirements file](requirement.txt).
+See [the requirements file](requirements.txt).
 
 ## Prediction Instructions
 We recommend using the [ERGO-II web-tool](http://tcr2.cs.biu.ac.il/home) for predicting binding scores.
