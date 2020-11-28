@@ -21,9 +21,24 @@ Two MLP are used, one for samples including TCRα and the other for samples miss
 
 ## Requirements
 ERGO-II is built using [PytorchLightning](https://github.com/PyTorchLightning/pytorch-lightning), a PyTorch wrapper.
+See [the requirements file](requirement.txt).
 
-## Instructions
-Instructions for training and predicting will be available soon.
-Meanwhile you explore [ERGO webtool](http://tcr.cs.biu.ac.il/),
-and [ERGO manuscript](https://www.frontiersin.org/articles/10.3389/fimmu.2020.01803/full)
-for an explanation about our suggested evaluation methods. 
+## Prediction Instructions
+We recommend using the [ERGO-II web-tool](http://tcr2.cs.biu.ac.il/home) for predicting binding scores.
+The website allows flexible selection of the model configuration.
+However, the web-tool is limited to predict up to 50,000 pairs at a time.
+For longer files you can use the models available in this repository.
+Note that due to the model size we include here only two ERGO-II models,
+one for the McPAS database and one for VDJdb.
+
+Run:
+```commandline
+python Predict.py dataset file
+```
+Where `dataset` is `mcpas` or `vdjdb` and `datafile` is the csv file to predict.
+See the website and [this example](example.csv) for the right datafile format.
+
+## References
+[1] Springer I, Besser H, Tickotsky-Moskovitz N, Dvorkin S and Louzoun Y (2020),
+Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs.
+*Front. Immunol. 11:1803.* [doi: 10.3389/fimmu.2020.01803.](https://www.frontiersin.org/articles/10.3389/fimmu.2020.01803/full)
