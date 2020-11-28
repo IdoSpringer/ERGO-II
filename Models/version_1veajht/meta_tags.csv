@@ -1,0 +1,17 @@
+key,value
+iter,1
+gpu,2
+dataset,vdjdb
+tcr_encoding_model,AE
+cat_encoding,embedding
+use_alpha,True
+use_vj,True
+use_mhc,True
+use_t_type,True
+aa_embedding_dim,10
+cat_embedding_dim,50
+lstm_dim,500
+encoding_dim,100
+lr,0.001
+wd,1e-05
+dropout,0.1
