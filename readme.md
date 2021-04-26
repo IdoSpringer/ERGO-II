@@ -42,3 +42,8 @@ See the website and [this example](example.csv) for the right datafile format.
 [1] Springer I, Besser H, Tickotsky-Moskovitz N, Dvorkin S and Louzoun Y (2020),
 Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs.
 *Front. Immunol. 11:1803.* [doi: 10.3389/fimmu.2020.01803.](https://www.frontiersin.org/articles/10.3389/fimmu.2020.01803/full)
+
+[2] Springer I, Tickotsky N and Louzoun Y (2021),
+Contribution of T Cell Receptor Alpha and Beta CDR3, MHC Typing, V and J Genes to Peptide Binding Prediction.
+*Front. Immunol. 12:664514.* [doi: 10.3389/fimmu.2021.664514](https://www.frontiersin.org/articles/10.3389/fimmu.2021.664514/full)
+
